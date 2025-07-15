@@ -1,0 +1,21 @@
+.contact {
+  flex-direction: column;
+  
+}
+.about_contact
+{
+  color: var(--clr-primary);
+}
+#cont
+{
+  margin-top: 20px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+#cont>a
+{
+  color: var(--clr-primary);
+}
