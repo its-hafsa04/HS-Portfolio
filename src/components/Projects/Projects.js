@@ -29,15 +29,15 @@ function Projects() {
 
           <ul className="project__stack">
             <li className="project__stack-item" id="stacks">
-              <SiHtml5 size={40} />
-              <IoLogoJavascript size={40} />
-              <SiCss3 size={40} />
-              <FaReact size={50} />
-              <SiRedux size={40} />
-              <SiExpress size={40} />
-              <SiMongodb size={40} />
-              <FaNodeJs size={40} />
-              <SiVercel size={40} />
+              <SiHtml5 size={30} />
+              <IoLogoJavascript size={30} />
+              <SiCss3 size={30} />
+              <FaReact size={30} />
+              <SiRedux size={30} />
+              <SiExpress size={30} />
+              <SiMongodb size={30} />
+              <FaNodeJs size={30} />
+              <SiVercel size={30} />
             </li>
           </ul>
 
@@ -72,14 +72,14 @@ function Projects() {
 
           <ul className="project__stack">
             <li className="project__stack-item" id="stacks">
-              <SiHtml5 size={40} />
-              <SiTypescript size={40} />
-              <SiCss3 size={40} />
-              <FaReact size={50} />
-              <SiExpress size={40} />
-              <SiMongodb size={40} />
-              <FaNodeJs size={40} />
-              <SiVercel size={40} />
+              <SiHtml5 size={30} />
+              <SiTypescript size={30} />
+              <SiCss3 size={30} />
+              <FaReact size={30} />
+              <SiExpress size={30} />
+              <SiMongodb size={30} />
+              <FaNodeJs size={30} />
+              <SiVercel size={30} />
             </li>
           </ul>
 

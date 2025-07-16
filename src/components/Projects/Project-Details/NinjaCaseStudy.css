@@ -96,3 +96,49 @@
 .dark .theme-toggle-btn:hover {
   background-color: #374151;
 }
+@media screen and (max-width: 768px) {
+  .ninja-container a{
+    margin-bottom: 1rem;
+  }
+  .ninja-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .ninja-video iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .ninja-video {
+    height: auto;
+    padding-top: 56.25%; 
+    position: relative;
+  }
+
+  .ninja-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+
+  .ninja-title {
+    font-size: 2rem;
+  }
+
+  .ninja-section h2 {
+    font-size: 1.25rem;
+  }
+
+  .ninja-list,
+  .ninja-link-list {
+    margin-left: 1rem;
+  }
+
+  .ninja-section {
+    padding: 0 0.5rem;
+  }
+}
