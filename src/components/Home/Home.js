@@ -10,7 +10,7 @@ function Home()
     return(
 
         <section className="section home center">
-         <h1>
+         <h1 className="home__title">
           Hi, Myself <span className='about__name'>Hafsa Sajid</span>
         </h1>
     
