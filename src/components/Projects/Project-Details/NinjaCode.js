@@ -10,7 +10,7 @@ const NinjaCaseStudy = () => {
 
   return (
     <div className={`ninja-container ${themeName === 'dark' ? 'dark' : ''}`}>
-      <a style={{ padding: "4px", display: "inline-block", border: "1px solid" }} href="/">
+      <a style={{ padding: "6px", display: "inline-block", border: "1px solid" }} href="/">
         Go Back
       </a>
       <h1 className="ninja-title">NinjaCode Case Study</h1>

@@ -10,7 +10,7 @@ const MartCaseStudy = () => {
 
   return (
     <div className={`mart-container ${themeName === "dark" ? "dark" : ""}`}>
-    <a style={{ padding: "4px", display: "inline-block", border: "1px solid" }} href="/">
+    <a style={{ padding: "6px", display: "inline-block", border: "1px solid" }} href="/">
         Go Back
       </a>
       <h1 className="mart-title">MulMart Case Study</h1>
