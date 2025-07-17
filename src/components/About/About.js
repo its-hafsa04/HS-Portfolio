@@ -46,7 +46,7 @@ function About() {
           <div id="interest">
             <h4 className="about__desc">
               {" "}
-              Some of my interests apart from Coding :
+              Some of my interests apart from Coding are:
             </h4>
             <BiStar className="about__name" />{" "}
             <span className="about__name"> Baking </span>

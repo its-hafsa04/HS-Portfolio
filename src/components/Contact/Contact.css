@@ -18,4 +18,18 @@
 #cont>a
 {
   color: var(--clr-primary);
+  margin: auto 20px; 
+}
+@media (max-width: 600px) {
+  .contact {
+    padding: 2em;
+    margin-top: 3em;
+  }
+  #cont {
+    flex-direction: column;
+    align-items: center;
+  }
+  #cont>a {
+    margin: 10px 0;
+  }
 }

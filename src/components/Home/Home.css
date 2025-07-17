@@ -15,5 +15,23 @@
 {
     margin-top: 2em;
 }
+@media screen and (max-width: 600px) {
+  .home {
+    padding: 2em;
+    margin-top: 3em;
+  }
 
+  .typer {
+    font-size: 1.2em;
+  }
 
+  #resumeButton, #social {
+    margin-top: 1em;
+    text-align: center;
+  }
+    #resumeButton {
+        width: 100%;
+        padding: 0.5em;
+        font-size: 1em;
+    }
+}

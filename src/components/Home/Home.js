@@ -11,7 +11,7 @@ function Home()
 
         <section className="section home center">
          <h1>
-          Hi, I am <span className='about__name'>Hafsa Sajid</span>
+          Hi, Myself <span className='about__name'>Hafsa Sajid</span>
         </h1>
     
       <h2 className="typer"> 
