@@ -1,0 +1,133 @@
+.lms-container {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    color: var(--clr-fg);
+    line-height: 1.6;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .lms-container.dark {
+    background-color: var(--clr-bg);
+    color: var(--clr-fg);
+  }
+  
+  .lms-title {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    color: var(--clr-primary);
+  }
+  
+  .lms-section {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: var(--clr-bg-alt);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lms-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--clr-primary);
+    border-bottom: 2px solid var(--clr-primary);
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .lms-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lms-list li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .lms-list li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--clr-primary);
+    font-weight: bold;
+  }
+  
+  .lms-features {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .lms-col {
+    flex: 1 1 300px;
+  }
+  
+  .lms-col h3 {
+    margin-bottom: 1rem;
+    color: var(--clr-primary);
+  }
+  
+  .lms-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .lms-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .lms-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .lms-link-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .lms-link-list a {
+    text-decoration: none;
+    color: var(--clr-primary);
+    font-weight: bold;
+    border: 1px solid var(--clr-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .lms-link-list a:hover {
+    background: var(--clr-primary);
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .lms-title {
+      font-size: 2rem;
+    }
+    .lms-section {
+      padding: 1rem;
+    }
+    .lms-link-list {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }

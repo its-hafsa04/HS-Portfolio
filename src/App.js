@@ -11,6 +11,8 @@ import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import NinjaCaseStudy from './components/Projects/Project-Details/NinjaCode'
 import MartCaseStudy from './components/Projects/Project-Details/MulMart'
+import LMSCaseStudy from './components/Projects/Project-Details/LMS'
+import MentalyticseCaseStudy from './components/Projects/Project-Details/Mentolytics'
 import './App.css'
 
 const App = () => {
@@ -39,8 +41,11 @@ const App = () => {
           />
           <Route path="/Project-Details/ninjacode" element={<NinjaCaseStudy />} />
           <Route path="/Project-Details/MulMart" element={<MartCaseStudy />} />
+          <Route path="/Project-Details/LMS" element={<LMSCaseStudy />} />
+          <Route path="/Project-Details/Mentolytics" element={<MentalyticseCaseStudy />} />
         </Routes>
       </main>
+
 
       {!isCaseStudy && <Footer />}
       <ScrollToTop />

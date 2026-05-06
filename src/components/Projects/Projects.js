@@ -8,12 +8,22 @@ import {
   SiRedux,
   SiExpress,
   SiVercel,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiMaterialui,
+  SiSocketdotio,
+  SiRedis,
+  SiStripe,
+  SiFramer,
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import mart from "../Assets/mulmart.png";
 import ninja from "../Assets/ninjacode.png";
+import lms from "../Assets/lms.png";
+import mentolytics from "../Assets/mento.jpeg";
 import "./Projects.css";
 import { Link } from "react-router-dom";
+import { TbZodiacGemini } from "react-icons/tb";
 
 function Projects() {
   return (
@@ -101,8 +111,95 @@ function Projects() {
             </a>
           </div>
         </div>
+
+        {/* ----- Project 3 ----- */}
+        <div className="project">
+          <img src={lms} alt="LMS" />
+
+          <h3 className="about_project">LMS</h3>
+
+          <ul className="project__stack">
+            <li className="project__stack-item" id="stacks">
+              <SiNextdotjs size={30} />
+              <SiTypescript size={30} />
+              <SiTailwindcss size={30} />
+              <SiMongodb size={30} />
+              <SiRedux size={30} />
+              <SiExpress size={30} />
+              <FaNodeJs size={30} />
+              <SiStripe size={30} />
+              <SiSocketdotio size={30} />
+              <SiRedis size={30} />
+            </li>
+          </ul>
+
+          <div id="b">
+            <a
+              href="https://lms-79wk-git-main-hafsa-sajids-projects.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span type="button" className="btn btn--outline">
+                WatchLive
+              </span>
+            </a>
+
+            <Link
+              to="/Project-Details/LMS"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span type="button" className="btn btn--outline">
+                Description
+              </span>
+            </Link>
+          </div>
+        </div>
+
+        {/* ----- Project 4 ----- */}
+        <div className="project">
+          <img src={mentolytics} className="mento-img" alt="Mentolytics" />
+
+          <h3 className="about_project">Mentolytics</h3>
+
+          <ul className="project__stack">
+            <li className="project__stack-item" id="stacks">
+              <FaReact size={30} />
+              <SiTypescript size={30} />
+              <SiTailwindcss size={30} />
+              <SiSocketdotio size={30} />
+              <SiMongodb size={30} />
+              <SiExpress size={30} />
+              <FaNodeJs size={30} />
+              <TbZodiacGemini size={30} />
+            </li>
+          </ul>
+
+          <div id="b">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span type="button" className="btn btn--outline">
+              Coming Soon...
+              </span>
+            </a>
+
+            <Link
+              to="/Project-Details/Mentolytics"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span type="button" className="btn btn--outline">
+                Description
+              </span>
+            </Link>
+          </div>
+        </div>
       </div>
     </section>
+
   );
 }
 
