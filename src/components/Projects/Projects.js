@@ -20,7 +20,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import mart from "../Assets/mulmart.png";
 import ninja from "../Assets/ninjacode.png";
 import lms from "../Assets/lms.png";
-import mentolytics from "../Assets/mento.jpeg";
+import mentolytics from "../Assets/mento.png";
 import "./Projects.css";
 import { Link } from "react-router-dom";
 import { TbZodiacGemini } from "react-icons/tb";
@@ -140,7 +140,7 @@ function Projects() {
               rel="noopener noreferrer"
             >
               <span type="button" className="btn btn--outline">
-                WatchLive
+                Watch Live
               </span>
             </a>
 
@@ -158,7 +158,7 @@ function Projects() {
 
         {/* ----- Project 4 ----- */}
         <div className="project">
-          <img src={mentolytics} className="mento-img" alt="Mentolytics" />
+          <img src={mentolytics} className="img" alt="Mentolytics" />
 
           <h3 className="about_project">Mentolytics</h3>
 
@@ -177,12 +177,12 @@ function Projects() {
 
           <div id="b">
             <a
-              href="#"
+              href="https://youtu.be/5wRDi78V60U?si=Ca02pXichwqALHQz"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span type="button" className="btn btn--outline">
-              Coming Soon...
+                Watch Live
               </span>
             </a>
 

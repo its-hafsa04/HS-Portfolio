@@ -37,7 +37,7 @@ const MentalyticseCaseStudy = () => {
           <iframe
             width="100%"
             height="400"
-            src="https://www.youtube.com/embed/ASrj_y_uClQ"
+            src="https://www.youtube.com/embed/5wRDi78V60U?si=Ca02pXichwqALHQz"
             title="Mentolytics Demo Video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
